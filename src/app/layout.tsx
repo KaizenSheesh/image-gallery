@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         <Navbar />
-        <div className="mt-[68px]">{children}</div>
+        {children}
         </body>
     </html>
   );
