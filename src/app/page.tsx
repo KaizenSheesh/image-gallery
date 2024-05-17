@@ -1,7 +1,9 @@
+import { GalleriesLayout } from "@/components/organisms/ImageGallery";
+
 export default function Home() {
   return (
     <main>
-      <h1>Hello World</h1>
+      <GalleriesLayout />
     </main>
   );
 }
