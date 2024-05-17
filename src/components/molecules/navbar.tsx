@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { useState } from "react"
 export const Navbar = () => {
     return (
@@ -5,9 +6,9 @@ export const Navbar = () => {
             <div className="container flex flex-col items-center md:flex-row">
                 <div className="flex w-full items-center justify-between gap-2">
                     <div className="flex items-center gap-x-2">
-                        <h5 className="font-bold md:text-lg lg:text-2xl">
+                        <Link href={'/'} className="font-bold md:text-lg lg:text-2xl">
                             Photo<span className="text-orangeprimary">code</span>
-                        </h5>
+                        </Link>
                     </div>
                 </div>
             </div>
