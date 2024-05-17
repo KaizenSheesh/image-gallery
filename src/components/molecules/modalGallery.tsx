@@ -1,5 +1,4 @@
 import React from 'react';
-import { Photo } from "pexels";
 import { MoveUpRight, X } from 'lucide-react';
 import Link from 'next/link';
 
@@ -31,15 +30,15 @@ export const ModalGallery: React.FC<DownloadModalProps> = ({ imageUrl, photograp
 
     return (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-            <div className="relative bg-white flex flex-col lg:flex-row p-2 rounded-xl shadow-lg gap-2">
+            <div className="relative bg-white flex flex-col lg:flex-row p-2 rounded-xl shadow-lg gap-2 w-full max-w-lg md:max-w-3xl lg:max-w-5xl mx-4 lg:mx-0">
                 <button
                     onClick={onClose}
                     className="absolute -top-2 -right-2 p-1 rounded-full bg-white hover:bg-gray-400"
                 >
                     <X />
                 </button>
-                <img src={imageUrl} alt={photographer} className="w-full rounded-lg object-cover h-56 max-h-96" />
-                <div className="flex flex-col justify-between space-y-5 w-96 h-auto">
+                <img src={imageUrl} alt={photographer} className="w-full rounded-lg object-cover h-56 lg:h-96" />
+                <div className="flex flex-col justify-between space-y-5 w-full lg:w-96 h-auto">
                     <div className="space-y-2">
                         <h2 className="text-xl font-semibold">Tentang foto</h2>
                         <p>Terima kasih sudah mendownload foto dari Photocode, jangan lupa untuk mampir ke profile sang Fotografer!</p>
