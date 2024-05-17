@@ -1,4 +1,4 @@
-import { GalleriesLayout } from "@/components/organisms/ImageGallery";
+import { GalleriesLayout } from "@/components/organisms/GalleriesLayout";
 
 export default function Home() {
   return (
