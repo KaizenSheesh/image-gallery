@@ -5,14 +5,11 @@
 Photocode menyediakan 130k+ gambar yang tersedia di internet, mencari gambar apapun yang anda inginkan dan simpan gambar dengan resolusi tinggi, dan tentunya sangat cepat!
 
 ```Bash
-  git clone https://github.com/mas-rito/image-gallery.git
+  git clone https://github.com/KaizenSheesh/image-gallery.git
   cd image-gallery
   npm install
 
   npm run dev
-  # or
-  npm run build
-  npm run start
 ```
 
 Buka url [http://localhost:3000](http://localhost:3000) dengan browser kesukaan anda dan lihat hasilnya!.
