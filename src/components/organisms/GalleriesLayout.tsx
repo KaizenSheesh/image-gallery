@@ -47,10 +47,10 @@ export const GalleriesLayout = () => {
                 <div className="w-full flex flex-col justify-center items-center h-auto space-y-2">
                     <h2 className="text-xl font-semibold text-center">Free {query} Images</h2>
                     <div className="w-full flex justify-start md:justify-center items-center h-auto overflow-x-auto space-x-2">
-                        <div className="flex space-x-2 px-2">
+                        <div className="flex space-x-5 px-2">
                             {KEYWORD.map((keyword, index) => (
-                                <button key={index} className="w-max h-18 text-white bg-orangeprimary rounded-full p-2 whitespace-nowrap" onClick={() => handleKeywordSearch(keyword)}>
-                                    {keyword}
+                                <button key={index} className="w-max h-18 rounded-full p-2 whitespace-nowrap" onClick={() => handleKeywordSearch(keyword)}>
+                                    #{keyword}
                                 </button>
                             ))}
                         </div>
