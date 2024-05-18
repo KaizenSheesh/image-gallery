@@ -73,7 +73,7 @@ export const GalleriesLayout = () => {
                                 </div>
                             ))
                         ) : (
-                            <div className="h-screen flex items-center justify-center">
+                            <div className="w-full flex items-center justify-center">
                                 <div className="text-lg">No images found.</div>
                             </div>
                         )}
