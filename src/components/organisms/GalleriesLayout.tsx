@@ -43,7 +43,7 @@ export const GalleriesLayout = () => {
                     </form>
                 </div>
             </div>
-            <div className="container space-y-5 min-h-screen pb-5">
+            <div className="container space-y-5 min-h-screen pb-2">
                 <div className="w-full flex flex-col justify-center items-center h-auto space-y-2">
                     <h2 className="text-xl font-semibold text-center">Free {query} Images</h2>
                     <div className="w-full flex justify-start md:justify-center items-center h-auto overflow-x-auto space-x-2">
