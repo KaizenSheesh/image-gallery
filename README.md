@@ -18,13 +18,11 @@ Photocode menyediakan 130k+ gambar yang tersedia di internet, mencari gambar apa
 Buka url [http://localhost:3000](http://localhost:3000) dengan browser kesukaan anda dan lihat hasilnya!.
 
 ## Teknologi yang digunakan:
-<hr/>
 NextJs, ReactJs, Tailwindcss
 
 API: Pexels API
 
 ## Developer
-<hr/>
 <ul>
   <li><a href="https://github.com/kaizensheesh">@kaizensheesh</a></li>
 </ul>  
